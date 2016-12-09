@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>biPcMobile</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/3.2.1/font/fontawesome-webfont.svg">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="styles/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .property-right{
+      width:900px
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+ <div class="container clearfix">
+     <div class="property-left ">
+       <h3 class="property-header">物业运营系统</h3>
+       <div class="left-nav">
+         <ul>
+           <li><a class="fisrt-leve"><i class="nav-icon  icon-bell-alt"></i>我的公告</a><i class="nav-right-icon icon-angle-left"></i></li>
+           <li><a class="fisrt-leve" class="active"><i class="nav-icon  icon-envelope-alt"></i>企业信息</a><i class="nav-right-icon icon-angle-left"></i></li>
+           <li><a class="fisrt-leve"><i class="nav-icon icon-paste"></i>我的票据</a><i class="nav-right-icon icon-angle-left"></i></li>
+           <li><a class="fisrt-leve"><i class="nav-icon icon-credit-card"></i>付款信息</a><i class="nav-right-icon icon-angle-left"></i></li>
+           <li><a class="fisrt-leve"><i class="nav-icon icon-folder-close"></i>合同信息</a><i class="nav-right-icon icon-angle-left"></i></li>
+           <li><a class="fisrt-leve"><i class="nav-icon icon-desktop"></i>结算信息</a><i class="nav-right-icon icon-angle-left"></i></li>
+         </ul>
+       </div>
+     </div>
+     <div class="property-right">
+       <div class="property-header">
+       </div>
+       <div class="mycontent">
+         <ol class="breadcrumb my-breadcrumb">
+          <li><a>您当前的位置:</a></li>
+          <li><a href="#">首页</a></li>
+          <li class="active">我的票据</li>
+        </ol>
+        <div class="my-query">
+          <div class="row">
+           <form class="form-horizontal">
+              <div class="col-md-4">
+                    <label class="control-label" for="input01">票据名称</label>
+                    <input type="text" class="input-xlarge">
+              </div>
+              <div class="col-md-4">
+                    <label class="control-label" for="input02">上传人</label>
+                    <input type="text" class="input-xlarge">
+              </div>
+              <div class="col-md-4 query-container">
+                  <div class="input-append">
+                    <label class="control-label">票据名称</label>
+                    <input class="span2" type="text">
+                    <span class="my-search-icon icon-search"></span>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>  
+        <div class="my-table-detail">
+          <div class="table-btn">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default"><i class="edit-icon icon-plus-sign"   ></i><span>新增</span></button>
+              <button type="button" class="btn btn-default"><i class="edit-icon icon-pencil"      ></i><span>修改</span></button>
+              <button type="button" class="btn btn-default"><i class="edit-icon icon-remove-sign" ></i><span>删除</span></button>
+              <button type="button" class="btn btn-default"><i class="edit-icon icon-ok-sign"     ></i><span>确认</span></button>
+            </div>
+          </div>
+          <table class="table table-bordered table-hover">
+              <thead>
+                <tr>
+                  <th>票据名称</th>
+                  <th>上传人</th>
+                  <th>上传日期</th>
+                  <th>结算编号</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+                <tr>
+                  <td>物业运营系统物业运营系统   物业运营系统  </td>
+                  <td>李福宇</td>
+                  <td>2016-10-31 </td>
+                  <td>结算单编号</td>
+                  <td><a class="table-edit-a" href="">查看 </a> <a class="table-edit-a" href="">删除</a> </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="pagination">
+              <li><a href="#">&laquo;</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&raquo;</a></li>
+          </ul>
+        </div>  
+       </div>
+     </div>
+    </div><!--/.container-->
+  </body>
+</html>
